@@ -6,6 +6,7 @@ app.use(express.json());
 app.use('/api/files', filesRouter);
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => {
+const HOSTNAME=process.env.HOSTNAME
+app.listen(PORT,HOSTNAME, () => {
   console.log(`Server is running on port ${PORT}`);
 });
