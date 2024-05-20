@@ -1,6 +1,9 @@
 Text File API
 This project provides two API endpoints for creating and retrieving text files. Each text file contains the current timestamp and is saved with a filename corresponding to the current date and time.
 
+Postman Documentation link:
+https://documenter.getpostman.com/view/34796823/2sA3QmEv7z
+
 Prerequisites
 Node.js
 npm (Node Package Manager)
